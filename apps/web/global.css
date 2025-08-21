@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary Colors */
+  --bg-primary: #FAF9F6;           /* Off-white background */
+  --accent-primary: #3262E5;       /* Blue accent */
+  --text-primary: #181818;         /* Main text */
+  --gray-subtle: #F0F0F0;          /* Subtle gray */
+  
+  /* Secondary Colors */
+  --bg-card: #FFFFFF;              /* Card backgrounds */
+  --border-light: #E5E5E5;        /* Light borders */
+  --text-secondary: #6B7280;      /* Secondary text */
+  --hover-bg: #F8F9FA;            /* Hover states */
+  
+  /* Status Colors */
+  --success: #10B981;              /* Success green */
+  --warning: #F59E0B;              /* Warning orange */
+  --error: #EF4444;                /* Error red */
+  --info: #3B82F6;                 /* Info blue */
+}
+
+/* Import Plus Jakarta Sans */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-primary: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Typography Scale */
+.text-heading-1 { font-size: 2.25rem; font-weight: 700; }  /* 36px */
+.text-heading-2 { font-size: 1.875rem; font-weight: 700; } /* 30px */
+.text-heading-3 { font-size: 1.5rem; font-weight: 600; }   /* 24px */
+.text-body-lg { font-size: 1.125rem; font-weight: 500; }   /* 18px */
+.text-body { font-size: 1rem; font-weight: 500; }          /* 16px */
+.text-body-sm { font-size: 0.875rem; font-weight: 400; }   /* 14px */
+.text-caption { font-size: 0.75rem; font-weight: 400; }    /* 12px */
